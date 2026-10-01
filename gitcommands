@@ -1,0 +1,11 @@
+1) Git --version
+2)git config --list :-this will list all  the configuration in git
+3)settings the configuration
+
+git config --global user.name "username"
+git config --global user.email "emailaddress"
+4) How to connevct a repo with local folder
+git status:used for checking the status of a untracked files
+git add<filename>/./ --all : this will add all files to stage area
+git commit -m <message>: used to add the files to local repo
+git push - u origin main :- this will transfer files to remote repo
